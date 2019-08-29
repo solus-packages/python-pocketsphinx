@@ -1,0 +1,23 @@
+name       : python-pocketsphinx
+version    : 0.1.15
+release    : 1
+source     :
+    # pocketsphinx and sphinxbase submodules are needed
+    - git|https://github.com/bambocher/pocketsphinx-python : v0.1.15
+license    : BSD-2-Clause
+component  : programming.python
+summary    : Python interface to CMU Sphinxbase and Pocketsphinx libraries
+description: |
+    Pocketsphinx is a part of the CMU Sphinx Open Source Toolkit For Speech Recognition.
+    This package provides a python interface to CMU Sphinxbase and Pocketsphinx libraries created with SWIG and Setuptools.
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(libpulse)
+    - pkgconfig(python3)
+    - swig
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

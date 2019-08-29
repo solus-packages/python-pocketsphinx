@@ -1,0 +1,67 @@
+<PISI>
+    <Source>
+        <Name>python-pocketsphinx</Name>
+        <Packager>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Python interface to CMU Sphinxbase and Pocketsphinx libraries</Summary>
+        <Description xml:lang="en">Pocketsphinx is a part of the CMU Sphinx Open Source Toolkit For Speech Recognition.
+This package provides a python interface to CMU Sphinxbase and Pocketsphinx libraries created with SWIG and Setuptools.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-pocketsphinx</Name>
+        <Summary xml:lang="en">Python interface to CMU Sphinxbase and Pocketsphinx libraries</Summary>
+        <Description xml:lang="en">Pocketsphinx is a part of the CMU Sphinx Open Source Toolkit For Speech Recognition.
+This package provides a python interface to CMU Sphinxbase and Pocketsphinx libraries created with SWIG and Setuptools.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx-0.1.15-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx-0.1.15-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx-0.1.15-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx-0.1.15-py3.6.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx-0.1.15-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/__pycache__/pocketsphinx.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/_pocketsphinx.cpython-36m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/data/goforward.raw</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/cmudict-en-us.dict</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us.lm.bin</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/README</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/feat.params</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/mdef</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/means</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/noisedict</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/sendump</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/transition_matrices</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/model/en-us/variances</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pocketsphinx/pocketsphinx.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/__pycache__/ad_alsa.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/__pycache__/ad_pulse.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/__pycache__/sphinxbase.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/_ad_alsa.cpython-36m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/_ad_pulse.cpython-36m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/_sphinxbase.cpython-36m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/ad_alsa.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/ad_pulse.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/sphinxbase/sphinxbase.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-12</Date>
+            <Version>0.1.15</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Update>
+    </History>
+</PISI>

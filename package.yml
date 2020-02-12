@@ -1,6 +1,6 @@
 name       : python-pocketsphinx
 version    : 0.1.15
-release    : 2
+release    : 3
 source     :
     # pocketsphinx and sphinxbase submodules are needed
         - git|https://github.com/bambocher/pocketsphinx-python : v0.1.15

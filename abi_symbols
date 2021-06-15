@@ -7,9 +7,6 @@ _ad_alsa.cpython-37m-x86_64-linux-gnu.so:ad_read
 _ad_alsa.cpython-37m-x86_64-linux-gnu.so:ad_start_rec
 _ad_alsa.cpython-37m-x86_64-linux-gnu.so:ad_stop_rec
 _ad_pulse.cpython-37m-x86_64-linux-gnu.so:PyInit__ad_pulse
-_ad_pulse.cpython-37m-x86_64-linux-gnu.so:__bss_start
-_ad_pulse.cpython-37m-x86_64-linux-gnu.so:_edata
-_ad_pulse.cpython-37m-x86_64-linux-gnu.so:_end
 _ad_pulse.cpython-37m-x86_64-linux-gnu.so:ad_close
 _ad_pulse.cpython-37m-x86_64-linux-gnu.so:ad_open
 _ad_pulse.cpython-37m-x86_64-linux-gnu.so:ad_open_dev

@@ -1,4 +1,4 @@
-_ad_alsa.cpython-37m-x86_64-linux-gnu.so
-_ad_pulse.cpython-37m-x86_64-linux-gnu.so
-_pocketsphinx.cpython-37m-x86_64-linux-gnu.so
-_sphinxbase.cpython-37m-x86_64-linux-gnu.so
+_ad_alsa.cpython-39-x86_64-linux-gnu.so
+_ad_pulse.cpython-39-x86_64-linux-gnu.so
+_pocketsphinx.cpython-39-x86_64-linux-gnu.so
+_sphinxbase.cpython-39-x86_64-linux-gnu.so
